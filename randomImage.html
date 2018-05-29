@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" > <!-- This tells the browser to use unicode encodings -->
+    <title>Generated Cookie</title> <!-- This appears in the top tab of the browser -->
+    <link rel="stylesheet" type="text/css" href="randomStyles.css" /> <!-- This connects the current html document to the css stylesheet -->
+    <meta name="description" content="The generated cookie from the random cookie generator"/>
+    <!-- The meta keywords tag helps tag your site for search engines -->
+    <meta name="keywords" content="generator, cookie, result, silly" />
+    <!-- The meta robots tag tells search engine robots how they should index the site.  "index, follow" means DO index, and also follow all links and index them, too. -->
+    <meta name="robots" content="index,follow" />
+
+    <script type="text/javascript">
+  var imageURLs = [
+       "chocchipcookie1.jpg"
+     , "oatmealcookie1.jpg"
+     , "sugarcookie1.jpg"
+     , "snickerdoodlecookie1.jpg"
+     , "peanutbuttercookie1.jpg"
+     , "macarooncookie1.jpg"
+  ];
+  function getImageTag() {
+    var img = '<img src=\"';
+    var randomIndex = Math.floor(Math.random() * imageURLs.length);
+    img += imageURLs[randomIndex];
+    img += '\" alt=\"Some alt text\"/>';
+    return img;
+  }
+  </script>
+
+
+
+</head>
+<body>
+
+  <div id="headerbar">
+    <a href="index.html">
+      <p class="headings"> Home </p>
+    </a>
+    <a href="types.html">
+      <p class="headings"> Types of Cookies </p>
+    </a>
+    <a href="generator.html">
+      <p class="headings"> Cookie Generator </p>
+    </a>
+  </div>
+
+  <!-- <img src="getImageTag()">; -->
+
+<!-- <div id="image"> -->
+
+
+  <script type="text/javascript">
+  document.write(getImageTag());
+</script>
+
+<!-- <script>
+var image = getImageTag(); //just for an example
+document.body.appendChild(document.createElement('p'));
+document.querySelector("body p:last-child").id = "images";
+document.querySelector("#images").innerHTML = image;
+</script> -->
+
+<!-- </div> -->
+
+<!-- '<div id="images"' +
++ '</div>' -->
+
+  <h1>Congratutions! You've generated a random cookie!</h1>
+<a href="types.html" class="info">
+  <p>
+    Click here to learn more about your cookie!
+  </p>
+</a>
+<a href="randomImage.html" class="info">
+  <p>
+    Click here to generate another one!
+  </p>
+</a>
+</body>
+</html>

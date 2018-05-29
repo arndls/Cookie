@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(7, 198, 242)
+}
+
+#headerbar{
+  padding: 20px 0;
+  background-color: black;
+}
+
+a{
+  color: black;
+  text-decoration: none;
+}
+
+.headings{
+  color: lightgray;
+  font-size: 25px;
+  padding-left: 20px;
+  display: inline;
+  background-color: black;
+}
+
+h1{
+  margin: 50px;
+  margin-bottom: 0px;
+  text-align: center;
+  font-size: 100px;
+}
+
+#button{
+  position: relative;
+  text-align: center;
+  color: lightgray;
+}
+
+#text > h2{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 250px;
+  transform: translate(-50%, -50%);
+  background: transparent;
+  font-size: 40px;
+}
+
+#buttonlink:hover{
+  opacity: 0.7;
+  filter: alpha(opacity=100);
+}
+
+
+
+/* #button > #text{
+  background-color: lightgray;
+  padding: 0 535px;
+  background-image: url("button.jpg");
+  background-position: center;
+  height: 310px;
+  width: 210px;
+  background-repeat: no-repeat;
+}
+
+h2{
+  text-align: center;
+  padding: 70px 30px;
+  font-size: 30px;
+  background-color: hidden; */
+}
